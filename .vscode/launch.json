@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run FastAPI",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["src.books.main:app", "--reload"],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true,
+      "subProcess": true
+    }
+  ]
+}
